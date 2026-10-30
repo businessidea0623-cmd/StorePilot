@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #455A64;
+    background-color: #FFFFFF;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #37474F;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Subtle pale-pink dotted pattern for hero sections */
+.bg-dots-pattern {
+  background-color: #FFFFFF;
+  background-image: radial-gradient(#FCEFEF 2.5px, transparent 2.5px);
+  background-size: 24px 24px;
+}
+
+.bg-dots-pattern-dense {
+  background-color: #FFFFFF;
+  background-image: radial-gradient(#F8D7DA 1.8px, transparent 1.8px);
+  background-size: 16px 16px;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8FAFC;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+

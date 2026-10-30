@@ -1,0 +1,2124 @@
+{
+  "users": [
+    {
+      "id": "usr_demo_1",
+      "name": "Hamza Malik",
+      "email": "hamza@storepilot.io",
+      "role": "owner",
+      "avatarUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "workspaceId": "ws_demo_1"
+    }
+  ],
+  "workspaces": [
+    {
+      "id": "ws_demo_1",
+      "name": "Indus Retail Group (Pakistan)",
+      "currency": "PKR",
+      "plan": "growth",
+      "createdAt": "2026-10-20T09:10:34.792Z",
+      "isDemoMode": true
+    }
+  ],
+  "stores": [
+    {
+      "id": "store_1",
+      "name": "STOREPILOT-DEMO (Shopify Demo - PKR)",
+      "platform": "shopify",
+      "domain": "storepilot-demo.myshopify.com",
+      "status": "connected",
+      "lastSyncedAt": "2026-10-25T16:48:06.844Z",
+      "totalOrdersCount": 18
+    },
+    {
+      "id": "store_2",
+      "name": "Daraz / Marketplace Store",
+      "platform": "manual",
+      "domain": "marketplace.sellerhub.pk/indus",
+      "status": "connected",
+      "lastSyncedAt": "2026-10-22T09:10:34.792Z",
+      "totalOrdersCount": 12
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_1792946886816",
+      "orderNumber": "SP-1018",
+      "storeId": "store_1",
+      "storeName": "STOREPILOT-DEMO (Shopify Demo - PKR)",
+      "customerName": "Test Automation Customer",
+      "customerEmail": "auto.test@storepilot.pk",
+      "status": "pending",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "unfulfilled",
+      "paymentMethod": "Cash on Delivery (COD)",
+      "currency": "PKR",
+      "subtotal": 2000,
+      "shippingFee": 250,
+      "tax": 160,
+      "totalAmount": 2410,
+      "items": [
+        {
+          "id": "item_1792946886816_0",
+          "title": "Automated Test Shirt",
+          "sku": "AUTO-SHIRT-01",
+          "quantity": 2,
+          "unitPrice": 1000,
+          "totalPrice": 2000
+        }
+      ],
+      "shippingAddress": {
+        "name": "Test Automation Customer",
+        "street": "Main Boulevard, Gulberg",
+        "city": "Lahore",
+        "state": "Punjab",
+        "zip": "54000",
+        "country": "Pakistan"
+      },
+      "timeline": [
+        {
+          "title": "Order Created",
+          "description": "Order SP-1018 placed via StorePilot dashboard in PKR",
+          "timestamp": "2026-10-25T16:48:06.816Z"
+        }
+      ],
+      "createdAt": "2026-10-25T16:48:06.816Z",
+      "updatedAt": "2026-10-25T16:48:06.816Z"
+    },
+    {
+      "id": "ord_1792943702853",
+      "orderNumber": "SP-1017",
+      "storeId": "store_1",
+      "storeName": "STOREPILOT-DEMO (Shopify Demo - PKR)",
+      "customerName": "Test Automation Customer",
+      "customerEmail": "auto.test@storepilot.pk",
+      "status": "pending",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "unfulfilled",
+      "paymentMethod": "Cash on Delivery (COD)",
+      "currency": "PKR",
+      "subtotal": 2000,
+      "shippingFee": 250,
+      "tax": 160,
+      "totalAmount": 2410,
+      "items": [
+        {
+          "id": "item_1792943702853_0",
+          "title": "Automated Test Shirt",
+          "sku": "AUTO-SHIRT-01",
+          "quantity": 2,
+          "unitPrice": 1000,
+          "totalPrice": 2000
+        }
+      ],
+      "shippingAddress": {
+        "name": "Test Automation Customer",
+        "street": "Main Boulevard, Gulberg",
+        "city": "Lahore",
+        "state": "Punjab",
+        "zip": "54000",
+        "country": "Pakistan"
+      },
+      "timeline": [
+        {
+          "title": "Order Created",
+          "description": "Order SP-1017 placed via StorePilot dashboard in PKR",
+          "timestamp": "2026-10-25T15:55:02.853Z"
+        }
+      ],
+      "createdAt": "2026-10-25T15:55:02.853Z",
+      "updatedAt": "2026-10-25T15:55:02.853Z"
+    },
+    {
+      "id": "ord_1792942990551",
+      "orderNumber": "SP-1016",
+      "storeId": "store_1",
+      "storeName": "STOREPILOT-DEMO (Shopify Demo - PKR)",
+      "customerName": "Test Automation Customer",
+      "customerEmail": "auto.test@storepilot.pk",
+      "status": "pending",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "unfulfilled",
+      "paymentMethod": "Cash on Delivery (COD)",
+      "currency": "PKR",
+      "subtotal": 2000,
+      "shippingFee": 250,
+      "tax": 160,
+      "totalAmount": 2410,
+      "items": [
+        {
+          "id": "item_1792942990551_0",
+          "title": "Automated Test Shirt",
+          "sku": "AUTO-SHIRT-01",
+          "quantity": 2,
+          "unitPrice": 1000,
+          "totalPrice": 2000
+        }
+      ],
+      "shippingAddress": {
+        "name": "Test Automation Customer",
+        "street": "Main Boulevard, Gulberg",
+        "city": "Lahore",
+        "state": "Punjab",
+        "zip": "54000",
+        "country": "Pakistan"
+      },
+      "timeline": [
+        {
+          "title": "Order Created",
+          "description": "Order SP-1016 placed via StorePilot dashboard in PKR",
+          "timestamp": "2026-10-25T15:43:10.551Z"
+        }
+      ],
+      "createdAt": "2026-10-25T15:43:10.551Z",
+      "updatedAt": "2026-10-25T15:43:10.551Z"
+    },
+    {
+      "id": "ord_1792868286765",
+      "orderNumber": "SP-1015",
+      "storeId": "store_1",
+      "storeName": "STOREPILOT-DEMO (Shopify Demo - PKR)",
+      "customerName": "Test Automation Customer",
+      "customerEmail": "auto.test@storepilot.pk",
+      "status": "pending",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "unfulfilled",
+      "paymentMethod": "Cash on Delivery (COD)",
+      "currency": "PKR",
+      "subtotal": 2000,
+      "shippingFee": 250,
+      "tax": 160,
+      "totalAmount": 2410,
+      "items": [
+        {
+          "id": "item_1792868286765_0",
+          "title": "Automated Test Shirt",
+          "sku": "AUTO-SHIRT-01",
+          "quantity": 2,
+          "unitPrice": 1000,
+          "totalPrice": 2000
+        }
+      ],
+      "shippingAddress": {
+        "name": "Test Automation Customer",
+        "street": "Main Boulevard, Gulberg",
+        "city": "Lahore",
+        "state": "Punjab",
+        "zip": "54000",
+        "country": "Pakistan"
+      },
+      "timeline": [
+        {
+          "title": "Order Created",
+          "description": "Order SP-1015 placed via StorePilot dashboard in PKR",
+          "timestamp": "2026-10-24T18:58:06.765Z"
+        }
+      ],
+      "createdAt": "2026-10-24T18:58:06.765Z",
+      "updatedAt": "2026-10-24T18:58:06.765Z"
+    },
+    {
+      "id": "ord_1792868234639",
+      "orderNumber": "SP-1014",
+      "storeId": "store_1",
+      "storeName": "STOREPILOT-DEMO (Shopify Demo - PKR)",
+      "customerName": "Test Automation Customer",
+      "customerEmail": "auto.test@storepilot.pk",
+      "status": "pending",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "unfulfilled",
+      "paymentMethod": "Cash on Delivery (COD)",
+      "currency": "PKR",
+      "subtotal": 2000,
+      "shippingFee": 250,
+      "tax": 160,
+      "totalAmount": 2410,
+      "items": [
+        {
+          "id": "item_1792868234639_0",
+          "title": "Automated Test Shirt",
+          "sku": "AUTO-SHIRT-01",
+          "quantity": 2,
+          "unitPrice": 1000,
+          "totalPrice": 2000
+        }
+      ],
+      "shippingAddress": {
+        "name": "Test Automation Customer",
+        "street": "Main Boulevard, Gulberg",
+        "city": "Lahore",
+        "state": "Punjab",
+        "zip": "54000",
+        "country": "Pakistan"
+      },
+      "timeline": [
+        {
+          "title": "Order Created",
+          "description": "Order SP-1014 placed via StorePilot dashboard in PKR",
+          "timestamp": "2026-10-24T18:57:14.639Z"
+        }
+      ],
+      "createdAt": "2026-10-24T18:57:14.639Z",
+      "updatedAt": "2026-10-24T18:57:14.639Z"
+    },
+    {
+      "id": "ord_1792866878380",
+      "orderNumber": "SP-1013",
+      "storeId": "store_1",
+      "storeName": "STOREPILOT-DEMO (Shopify Demo - PKR)",
+      "customerName": "Test Automation Customer",
+      "customerEmail": "auto.test@storepilot.pk",
+      "status": "pending",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "unfulfilled",
+      "paymentMethod": "Cash on Delivery (COD)",
+      "currency": "PKR",
+      "subtotal": 2000,
+      "shippingFee": 250,
+      "tax": 160,
+      "totalAmount": 2410,
+      "items": [
+        {
+          "id": "item_1792866878380_0",
+          "title": "Automated Test Shirt",
+          "sku": "AUTO-SHIRT-01",
+          "quantity": 2,
+          "unitPrice": 1000,
+          "totalPrice": 2000
+        }
+      ],
+      "shippingAddress": {
+        "name": "Test Automation Customer",
+        "street": "Main Boulevard, Gulberg",
+        "city": "Lahore",
+        "state": "Punjab",
+        "zip": "54000",
+        "country": "Pakistan"
+      },
+      "timeline": [
+        {
+          "title": "Order Created",
+          "description": "Order SP-1013 placed via StorePilot dashboard in PKR",
+          "timestamp": "2026-10-24T18:34:38.380Z"
+        }
+      ],
+      "createdAt": "2026-10-24T18:34:38.380Z",
+      "updatedAt": "2026-10-24T18:34:38.380Z"
+    },
+    {
+      "id": "ord_1792865684322",
+      "orderNumber": "SP-1012",
+      "storeId": "store_1",
+      "storeName": "STOREPILOT-DEMO (Shopify Demo - PKR)",
+      "customerName": "Test Automation Customer",
+      "customerEmail": "auto.test@storepilot.pk",
+      "status": "pending",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "unfulfilled",
+      "paymentMethod": "Cash on Delivery (COD)",
+      "currency": "PKR",
+      "subtotal": 2000,
+      "shippingFee": 250,
+      "tax": 160,
+      "totalAmount": 2410,
+      "items": [
+        {
+          "id": "item_1792865684322_0",
+          "title": "Automated Test Shirt",
+          "sku": "AUTO-SHIRT-01",
+          "quantity": 2,
+          "unitPrice": 1000,
+          "totalPrice": 2000
+        }
+      ],
+      "shippingAddress": {
+        "name": "Test Automation Customer",
+        "street": "Main Boulevard, Gulberg",
+        "city": "Lahore",
+        "state": "Punjab",
+        "zip": "54000",
+        "country": "Pakistan"
+      },
+      "timeline": [
+        {
+          "title": "Order Created",
+          "description": "Order SP-1012 placed via StorePilot dashboard in PKR",
+          "timestamp": "2026-10-24T18:14:44.322Z"
+        }
+      ],
+      "createdAt": "2026-10-24T18:14:44.322Z",
+      "updatedAt": "2026-10-24T18:14:44.322Z"
+    },
+    {
+      "id": "ord_1792857476846",
+      "orderNumber": "SP-1011",
+      "storeId": "store_1",
+      "storeName": "Indus Apparel Official (Shopify Demo - PKR)",
+      "customerName": "Test Automation Customer",
+      "customerEmail": "auto.test@storepilot.pk",
+      "status": "pending",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "unfulfilled",
+      "paymentMethod": "Cash on Delivery (COD)",
+      "currency": "PKR",
+      "subtotal": 2000,
+      "shippingFee": 250,
+      "tax": 160,
+      "totalAmount": 2410,
+      "items": [
+        {
+          "id": "item_1792857476846_0",
+          "title": "Automated Test Shirt",
+          "sku": "AUTO-SHIRT-01",
+          "quantity": 2,
+          "unitPrice": 1000,
+          "totalPrice": 2000
+        }
+      ],
+      "shippingAddress": {
+        "name": "Test Automation Customer",
+        "street": "Main Boulevard, Gulberg",
+        "city": "Lahore",
+        "state": "Punjab",
+        "zip": "54000",
+        "country": "Pakistan"
+      },
+      "timeline": [
+        {
+          "title": "Order Created",
+          "description": "Order SP-1011 placed via StorePilot dashboard in PKR",
+          "timestamp": "2026-10-24T15:57:56.846Z"
+        }
+      ],
+      "createdAt": "2026-10-24T15:57:56.846Z",
+      "updatedAt": "2026-10-24T15:57:56.846Z"
+    },
+    {
+      "id": "ord_1792857415942",
+      "orderNumber": "SP-1010",
+      "storeId": "store_1",
+      "storeName": "Indus Apparel Official (Shopify Demo - PKR)",
+      "customerName": "Test Automation Customer",
+      "customerEmail": "auto.test@storepilot.pk",
+      "status": "pending",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "unfulfilled",
+      "paymentMethod": "Cash on Delivery (COD)",
+      "currency": "PKR",
+      "subtotal": 2000,
+      "shippingFee": 250,
+      "tax": 160,
+      "totalAmount": 2410,
+      "items": [
+        {
+          "id": "item_1792857415942_0",
+          "title": "Automated Test Shirt",
+          "sku": "AUTO-SHIRT-01",
+          "quantity": 2,
+          "unitPrice": 1000,
+          "totalPrice": 2000
+        }
+      ],
+      "shippingAddress": {
+        "name": "Test Automation Customer",
+        "street": "Main Boulevard, Gulberg",
+        "city": "Lahore",
+        "state": "Punjab",
+        "zip": "54000",
+        "country": "Pakistan"
+      },
+      "timeline": [
+        {
+          "title": "Order Created",
+          "description": "Order SP-1010 placed via StorePilot dashboard in PKR",
+          "timestamp": "2026-10-24T15:56:55.942Z"
+        }
+      ],
+      "createdAt": "2026-10-24T15:56:55.942Z",
+      "updatedAt": "2026-10-24T15:56:55.942Z"
+    },
+    {
+      "id": "ord_1792749674473",
+      "orderNumber": "SP-1009",
+      "storeId": "store_1",
+      "storeName": "Indus Apparel Official (Shopify Demo - PKR)",
+      "customerName": "Test Automation Customer",
+      "customerEmail": "auto.test@storepilot.pk",
+      "status": "pending",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "unfulfilled",
+      "paymentMethod": "Cash on Delivery (COD)",
+      "currency": "PKR",
+      "subtotal": 2000,
+      "shippingFee": 250,
+      "tax": 160,
+      "totalAmount": 2410,
+      "items": [
+        {
+          "id": "item_1792749674473_0",
+          "title": "Automated Test Shirt",
+          "sku": "AUTO-SHIRT-01",
+          "quantity": 2,
+          "unitPrice": 1000,
+          "totalPrice": 2000
+        }
+      ],
+      "shippingAddress": {
+        "name": "Test Automation Customer",
+        "street": "Main Boulevard, Gulberg",
+        "city": "Lahore",
+        "state": "Punjab",
+        "zip": "54000",
+        "country": "Pakistan"
+      },
+      "timeline": [
+        {
+          "title": "Order Created",
+          "description": "Order SP-1009 placed via StorePilot dashboard in PKR",
+          "timestamp": "2026-10-23T10:01:14.473Z"
+        }
+      ],
+      "createdAt": "2026-10-23T10:01:14.474Z",
+      "updatedAt": "2026-10-23T10:01:14.474Z"
+    },
+    {
+      "id": "ord_1792746730099",
+      "orderNumber": "SP-1008",
+      "storeId": "store_1",
+      "storeName": "Indus Apparel Official (Shopify Demo - PKR)",
+      "customerName": "Test Automation Customer",
+      "customerEmail": "auto.test@storepilot.pk",
+      "status": "pending",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "unfulfilled",
+      "paymentMethod": "Cash on Delivery (COD)",
+      "currency": "PKR",
+      "subtotal": 2000,
+      "shippingFee": 250,
+      "tax": 160,
+      "totalAmount": 2410,
+      "items": [
+        {
+          "id": "item_1792746730099_0",
+          "title": "Automated Test Shirt",
+          "sku": "AUTO-SHIRT-01",
+          "quantity": 2,
+          "unitPrice": 1000,
+          "totalPrice": 2000
+        }
+      ],
+      "shippingAddress": {
+        "name": "Test Automation Customer",
+        "street": "Main Boulevard, Gulberg",
+        "city": "Lahore",
+        "state": "Punjab",
+        "zip": "54000",
+        "country": "Pakistan"
+      },
+      "timeline": [
+        {
+          "title": "Order Created",
+          "description": "Order SP-1008 placed via StorePilot dashboard in PKR",
+          "timestamp": "2026-10-23T09:12:10.099Z"
+        }
+      ],
+      "createdAt": "2026-10-23T09:12:10.099Z",
+      "updatedAt": "2026-10-23T09:12:10.099Z"
+    },
+    {
+      "id": "ord_1792746642414",
+      "orderNumber": "SP-1007",
+      "storeId": "store_1",
+      "storeName": "Indus Apparel Official (Shopify Demo - PKR)",
+      "customerName": "Test Automation Customer",
+      "customerEmail": "auto.test@storepilot.pk",
+      "status": "pending",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "unfulfilled",
+      "paymentMethod": "Cash on Delivery (COD)",
+      "currency": "PKR",
+      "subtotal": 2000,
+      "shippingFee": 250,
+      "tax": 160,
+      "totalAmount": 2410,
+      "items": [
+        {
+          "id": "item_1792746642413_0",
+          "title": "Automated Test Shirt",
+          "sku": "AUTO-SHIRT-01",
+          "quantity": 2,
+          "unitPrice": 1000,
+          "totalPrice": 2000
+        }
+      ],
+      "shippingAddress": {
+        "name": "Test Automation Customer",
+        "street": "Main Boulevard, Gulberg",
+        "city": "Lahore",
+        "state": "Punjab",
+        "zip": "54000",
+        "country": "Pakistan"
+      },
+      "timeline": [
+        {
+          "title": "Order Created",
+          "description": "Order SP-1007 placed via StorePilot dashboard in PKR",
+          "timestamp": "2026-10-23T09:10:42.414Z"
+        }
+      ],
+      "createdAt": "2026-10-23T09:10:42.414Z",
+      "updatedAt": "2026-10-23T09:10:42.414Z"
+    },
+    {
+      "id": "ord_1001",
+      "orderNumber": "SP-1001",
+      "storeId": "store_1",
+      "storeName": "Indus Apparel (Shopify Demo - PKR)",
+      "customerName": "Ayesha Siddiqui",
+      "customerEmail": "ayesha.s@example.pk",
+      "status": "fulfilled",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "delivered",
+      "paymentMethod": "Credit Card",
+      "currency": "PKR",
+      "subtotal": 6900,
+      "shippingFee": 250,
+      "tax": 552,
+      "totalAmount": 7702,
+      "carrier": "TCS Express",
+      "trackingNumber": "TCS-771928301",
+      "shippingAddress": {
+        "name": "Ayesha Siddiqui",
+        "street": "Bungalow 42-B, Khayaban-e-Seher, DHA Phase 6",
+        "city": "Karachi",
+        "state": "Sindh",
+        "zip": "75500",
+        "country": "Pakistan"
+      },
+      "items": [
+        {
+          "id": "item_1",
+          "title": "Minimalist Oxford Cotton Kurta & Shirt (M)",
+          "sku": "SHIRT-OXF-001",
+          "quantity": 2,
+          "unitPrice": 3450,
+          "totalPrice": 6900
+        }
+      ],
+      "internalNotes": "Dispatched via TCS Overnight Express. Handed over to recipient.",
+      "timeline": [
+        {
+          "title": "Order Placed",
+          "description": "Order confirmed by customer via Shopify storefront",
+          "timestamp": "2026-10-20T09:10:34.792Z"
+        },
+        {
+          "title": "Payment Captured",
+          "description": "Authorized and captured via PayFast (Rs. 7,702.00)",
+          "timestamp": "2026-10-20T09:10:34.792Z"
+        },
+        {
+          "title": "Fulfilled & Dispatched",
+          "description": "Label generated. Tracking # TCS-771928301",
+          "timestamp": "2026-10-21T09:10:34.792Z"
+        },
+        {
+          "title": "Delivered",
+          "description": "Signed and received in DHA Phase 6, Karachi",
+          "timestamp": "2026-10-22T09:10:34.792Z"
+        }
+      ],
+      "createdAt": "2026-10-20T09:10:34.792Z",
+      "updatedAt": "2026-10-22T09:10:34.792Z"
+    },
+    {
+      "id": "ord_1002",
+      "orderNumber": "SP-1002",
+      "storeId": "store_1",
+      "storeName": "Indus Apparel (Shopify Demo - PKR)",
+      "customerName": "Bilal Farooq",
+      "customerEmail": "bilal.f@example.pk",
+      "status": "in_transit",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "shipped",
+      "paymentMethod": "Credit Card",
+      "currency": "PKR",
+      "subtotal": 19450,
+      "shippingFee": 0,
+      "tax": 1556,
+      "totalAmount": 21006,
+      "carrier": "Leopards Courier",
+      "trackingNumber": "LEO-982019482",
+      "shippingAddress": {
+        "name": "Bilal Farooq",
+        "street": "House 18, Block J, Gulberg III",
+        "city": "Lahore",
+        "state": "Punjab",
+        "zip": "54000",
+        "country": "Pakistan"
+      },
+      "items": [
+        {
+          "id": "item_2",
+          "title": "All-Weather Waterproof Explorer Parka (L)",
+          "sku": "JACK-EXP-003",
+          "quantity": 1,
+          "unitPrice": 14500,
+          "totalPrice": 14500
+        },
+        {
+          "id": "item_3",
+          "title": "Fine Merino Wool Crewneck Pullover (L)",
+          "sku": "SWTR-WOOL-004",
+          "quantity": 1,
+          "unitPrice": 4950,
+          "totalPrice": 4950
+        }
+      ],
+      "internalNotes": "Customer requested double-layer moisture protection packaging.",
+      "timeline": [
+        {
+          "title": "Order Placed",
+          "description": "Order confirmed online",
+          "timestamp": "2026-10-22T09:10:34.792Z"
+        },
+        {
+          "title": "Payment Confirmed",
+          "description": "Payment of Rs. 21,006.00 verified via Card",
+          "timestamp": "2026-10-22T09:10:34.792Z"
+        },
+        {
+          "title": "In Transit",
+          "description": "Sorted at Leopards Hub, Thokar Niaz Baig, Lahore",
+          "timestamp": "2026-10-23T09:10:34.792Z"
+        }
+      ],
+      "createdAt": "2026-10-22T09:10:34.792Z",
+      "updatedAt": "2026-10-23T09:10:34.792Z"
+    },
+    {
+      "id": "ord_1003",
+      "orderNumber": "SP-1003",
+      "storeId": "store_1",
+      "storeName": "Indus Apparel (Shopify Demo - PKR)",
+      "customerName": "Usman Tariq",
+      "customerEmail": "usman.t@example.pk",
+      "status": "processing",
+      "paymentStatus": "cod_pending",
+      "fulfillmentStatus": "unfulfilled",
+      "paymentMethod": "COD",
+      "currency": "PKR",
+      "subtotal": 5800,
+      "shippingFee": 250,
+      "tax": 464,
+      "totalAmount": 6514,
+      "carrier": "Trax Express",
+      "trackingNumber": "TRX-55102948",
+      "shippingAddress": {
+        "name": "Usman Tariq",
+        "street": "Street 9, Sector F-10/3",
+        "city": "Islamabad",
+        "state": "ICT",
+        "zip": "44000",
+        "country": "Pakistan"
+      },
+      "items": [
+        {
+          "id": "item_4",
+          "title": "Slim-Fit Raw Selvedge Denim (32/32)",
+          "sku": "JEAN-SLIM-002",
+          "quantity": 1,
+          "unitPrice": 5800,
+          "totalPrice": 5800
+        }
+      ],
+      "internalNotes": "Cash On Delivery verification call complete. Awaiting warehouse dispatch.",
+      "timeline": [
+        {
+          "title": "Order Created",
+          "description": "COD order initiated (Rs. 6,514.00 cash on arrival)",
+          "timestamp": "2026-10-23T09:10:34.792Z"
+        },
+        {
+          "title": "Verification",
+          "description": "Buyer verified via automated SMS OTP prompt",
+          "timestamp": "2026-10-23T09:10:34.792Z"
+        }
+      ],
+      "createdAt": "2026-10-23T09:10:34.792Z",
+      "updatedAt": "2026-10-23T09:10:34.792Z"
+    },
+    {
+      "id": "ord_1004",
+      "orderNumber": "SP-1004",
+      "storeId": "store_1",
+      "storeName": "Indus Apparel (Shopify Demo - PKR)",
+      "customerName": "Zainab Qureshi",
+      "customerEmail": "zainab.q@example.pk",
+      "status": "pending",
+      "paymentStatus": "pending",
+      "fulfillmentStatus": "unfulfilled",
+      "paymentMethod": "Bank Transfer",
+      "currency": "PKR",
+      "subtotal": 8900,
+      "shippingFee": 0,
+      "tax": 712,
+      "totalAmount": 9612,
+      "shippingAddress": {
+        "name": "Zainab Qureshi",
+        "street": "House 44, Street 12, Bahria Town Phase 4",
+        "city": "Rawalpindi",
+        "state": "Punjab",
+        "zip": "46000",
+        "country": "Pakistan"
+      },
+      "items": [
+        {
+          "id": "item_5",
+          "title": "Handcrafted Vegetable-Tanned Leather Weekend Tote",
+          "sku": "BAG-TOTE-005",
+          "quantity": 1,
+          "unitPrice": 8900,
+          "totalPrice": 8900
+        }
+      ],
+      "internalNotes": "Awaiting Meezan Bank 1-Link IBFT reference confirmation.",
+      "timeline": [
+        {
+          "title": "Order Placed",
+          "description": "Awaiting IBFT clearance",
+          "timestamp": "2026-10-23T09:10:34.792Z"
+        }
+      ],
+      "createdAt": "2026-10-23T09:10:34.792Z",
+      "updatedAt": "2026-10-23T09:10:34.792Z"
+    },
+    {
+      "id": "ord_1005",
+      "orderNumber": "SP-1005",
+      "storeId": "store_2",
+      "storeName": "Daraz / Marketplace Store",
+      "customerName": "Tariq Mehmood",
+      "customerEmail": "tariq.m@example.pk",
+      "status": "fulfilled",
+      "paymentStatus": "paid",
+      "fulfillmentStatus": "delivered",
+      "paymentMethod": "Credit Card",
+      "currency": "PKR",
+      "subtotal": 12900,
+      "shippingFee": 0,
+      "tax": 1032,
+      "totalAmount": 13932,
+      "carrier": "TCS Express",
+      "trackingNumber": "TCS-381920491",
+      "shippingAddress": {
+        "name": "Tariq Mehmood",
+        "street": "Flat 301, Clifton Block 4",
+        "city": "Karachi",
+        "state": "Sindh",
+        "zip": "75600",
+        "country": "Pakistan"
+      },
+      "items": [
+        {
+          "id": "item_6",
+          "title": "Stainless Steel Minimalist Chronograph Watch",
+          "sku": "ACC-WTCH-008",
+          "quantity": 1,
+          "unitPrice": 12900,
+          "totalPrice": 12900
+        }
+      ],
+      "timeline": [
+        {
+          "title": "Marketplace Sync",
+          "description": "Synced via Seller Central connector",
+          "timestamp": "2026-10-21T09:10:34.792Z"
+        },
+        {
+          "title": "Delivered",
+          "description": "Delivered to recipient",
+          "timestamp": "2026-10-22T09:10:34.792Z"
+        }
+      ],
+      "createdAt": "2026-10-21T09:10:34.792Z",
+      "updatedAt": "2026-10-22T09:10:34.792Z"
+    },
+    {
+      "id": "ord_1006",
+      "orderNumber": "SP-1006",
+      "storeId": "store_1",
+      "storeName": "Indus Apparel (Shopify Demo - PKR)",
+      "customerName": "Fatima Noor",
+      "customerEmail": "fatima.n@example.pk",
+      "status": "returned",
+      "paymentStatus": "refunded",
+      "fulfillmentStatus": "returned",
+      "paymentMethod": "Credit Card",
+      "currency": "PKR",
+      "subtotal": 5800,
+      "shippingFee": 0,
+      "tax": 464,
+      "totalAmount": 6264,
+      "shippingAddress": {
+        "name": "Fatima Noor",
+        "street": "Madina Town, Main Jaranwala Road",
+        "city": "Faisalabad",
+        "state": "Punjab",
+        "zip": "38000",
+        "country": "Pakistan"
+      },
+      "items": [
+        {
+          "id": "item_7",
+          "title": "Slim-Fit Raw Selvedge Denim (28/30)",
+          "sku": "JEAN-SLIM-002",
+          "quantity": 1,
+          "unitPrice": 5800,
+          "totalPrice": 5800
+        }
+      ],
+      "internalNotes": "Customer returned due to waist size preference. Restocked at Karachi Hub.",
+      "timeline": [
+        {
+          "title": "Return Received",
+          "description": "Package inspected and item found in original condition",
+          "timestamp": "2026-10-22T09:10:34.792Z"
+        },
+        {
+          "title": "Refund Completed",
+          "description": "Credit of Rs. 6,264.00 returned to customer card",
+          "timestamp": "2026-10-23T09:10:34.792Z"
+        }
+      ],
+      "createdAt": "2026-10-20T09:10:34.792Z",
+      "updatedAt": "2026-10-23T09:10:34.792Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod_1",
+      "title": "Minimalist Oxford Cotton Kurta & Shirt",
+      "sku": "SHIRT-OXF-001",
+      "category": "Apparel",
+      "price": 3450,
+      "costPrice": 1550,
+      "stock": 105,
+      "lowStockThreshold": 15,
+      "status": "active",
+      "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=400&q=80",
+      "variantsCount": 4,
+      "storeId": "store_1",
+      "salesCount": 142,
+      "createdAt": "2026-10-20T09:10:34.792Z"
+    },
+    {
+      "id": "prod_2",
+      "title": "Slim-Fit Raw Selvedge Denim",
+      "sku": "JEAN-SLIM-002",
+      "category": "Apparel",
+      "price": 5800,
+      "costPrice": 2600,
+      "stock": 6,
+      "lowStockThreshold": 10,
+      "status": "active",
+      "imageUrl": "https://images.unsplash.com/photo-1542272604-780c96856592?auto=format&fit=crop&w=400&q=80",
+      "variantsCount": 6,
+      "storeId": "store_1",
+      "salesCount": 210,
+      "createdAt": "2026-10-20T09:10:34.792Z"
+    },
+    {
+      "id": "prod_3",
+      "title": "All-Weather Waterproof Explorer Parka Jacket",
+      "sku": "JACK-EXP-003",
+      "category": "Outerwear",
+      "price": 14500,
+      "costPrice": 6800,
+      "stock": 18,
+      "lowStockThreshold": 8,
+      "status": "active",
+      "imageUrl": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=400&q=80",
+      "variantsCount": 3,
+      "storeId": "store_1",
+      "salesCount": 89,
+      "createdAt": "2026-10-20T09:10:34.792Z"
+    },
+    {
+      "id": "prod_4",
+      "title": "Fine Merino Wool Crewneck Pullover",
+      "sku": "SWTR-WOOL-004",
+      "category": "Apparel",
+      "price": 4950,
+      "costPrice": 2200,
+      "stock": 3,
+      "lowStockThreshold": 12,
+      "status": "active",
+      "imageUrl": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=400&q=80",
+      "variantsCount": 5,
+      "storeId": "store_1",
+      "salesCount": 124,
+      "createdAt": "2026-10-20T09:10:34.792Z"
+    },
+    {
+      "id": "prod_5",
+      "title": "Handcrafted Vegetable-Tanned Leather Weekend Tote",
+      "sku": "BAG-TOTE-005",
+      "category": "Accessories",
+      "price": 8900,
+      "costPrice": 3900,
+      "stock": 24,
+      "lowStockThreshold": 6,
+      "status": "active",
+      "imageUrl": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=400&q=80",
+      "variantsCount": 2,
+      "storeId": "store_1",
+      "salesCount": 95,
+      "createdAt": "2026-10-20T09:10:34.792Z"
+    },
+    {
+      "id": "prod_6",
+      "title": "Everyday Canvas Court Sneakers - Off-White",
+      "sku": "SHOE-CANV-006",
+      "category": "Footwear",
+      "price": 6200,
+      "costPrice": 2700,
+      "stock": 0,
+      "lowStockThreshold": 10,
+      "status": "active",
+      "imageUrl": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&q=80",
+      "variantsCount": 7,
+      "storeId": "store_1",
+      "salesCount": 180,
+      "createdAt": "2026-10-20T09:10:34.792Z"
+    },
+    {
+      "id": "prod_7",
+      "title": "Polarized Matte Sunglasses UV400",
+      "sku": "ACC-SUN-007",
+      "category": "Accessories",
+      "price": 2750,
+      "costPrice": 950,
+      "stock": 62,
+      "lowStockThreshold": 20,
+      "status": "active",
+      "imageUrl": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=400&q=80",
+      "variantsCount": 2,
+      "storeId": "store_1",
+      "salesCount": 77,
+      "createdAt": "2026-10-20T09:10:34.792Z"
+    },
+    {
+      "id": "prod_8",
+      "title": "Stainless Steel Minimalist Chronograph Watch",
+      "sku": "ACC-WTCH-008",
+      "category": "Accessories",
+      "price": 12900,
+      "costPrice": 5100,
+      "stock": 14,
+      "lowStockThreshold": 5,
+      "status": "active",
+      "imageUrl": "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=400&q=80",
+      "variantsCount": 3,
+      "storeId": "store_1",
+      "salesCount": 110,
+      "createdAt": "2026-10-20T09:10:34.792Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust_1792746642414",
+      "name": "Test Automation Customer",
+      "email": "auto.test@storepilot.pk",
+      "phone": "+1 (555) 000-0000",
+      "city": "San Francisco, CA",
+      "totalOrders": 12,
+      "totalSpent": 28920,
+      "currency": "USD",
+      "lastOrderDate": "2026-10-25T16:48:06.816Z",
+      "createdAt": "2026-10-23T09:10:42.414Z"
+    },
+    {
+      "id": "cust_1",
+      "name": "Ayesha Siddiqui",
+      "email": "ayesha.s@example.pk",
+      "phone": "+92 300 2348901",
+      "city": "Karachi, Sindh",
+      "totalOrders": 4,
+      "totalSpent": 26800,
+      "currency": "PKR",
+      "lastOrderDate": "2026-10-22T09:10:34.792Z",
+      "notes": "VIP customer. Prefers TCS Express delivery in DHA Phase 6.",
+      "createdAt": "2026-10-20T09:10:34.792Z"
+    },
+    {
+      "id": "cust_2",
+      "name": "Bilal Farooq",
+      "email": "bilal.f@example.pk",
+      "phone": "+92 321 3456789",
+      "city": "Lahore, Punjab",
+      "totalOrders": 2,
+      "totalSpent": 19450,
+      "currency": "PKR",
+      "lastOrderDate": "2026-10-23T09:10:34.792Z",
+      "createdAt": "2026-10-20T09:10:34.792Z"
+    },
+    {
+      "id": "cust_3",
+      "name": "Zainab Qureshi",
+      "email": "zainab.q@example.pk",
+      "phone": "+92 333 6781234",
+      "city": "Islamabad, ICT",
+      "totalOrders": 3,
+      "totalSpent": 21600,
+      "currency": "PKR",
+      "lastOrderDate": "2026-10-21T09:10:34.792Z",
+      "createdAt": "2026-10-20T09:10:34.792Z"
+    },
+    {
+      "id": "cust_4",
+      "name": "Usman Tariq",
+      "email": "usman.t@example.pk",
+      "phone": "+92 345 8904321",
+      "city": "Rawalpindi, Punjab",
+      "totalOrders": 1,
+      "totalSpent": 5800,
+      "currency": "PKR",
+      "lastOrderDate": "2026-10-22T09:10:34.792Z",
+      "notes": "Cash on Delivery customer verified via phone OTP.",
+      "createdAt": "2026-10-20T09:10:34.792Z"
+    },
+    {
+      "id": "cust_5",
+      "name": "Fatima Noor",
+      "email": "fatima.n@example.pk",
+      "phone": "+92 301 4328765",
+      "city": "Faisalabad, Punjab",
+      "totalOrders": 5,
+      "totalSpent": 38400,
+      "currency": "PKR",
+      "lastOrderDate": "2026-10-23T09:10:34.792Z",
+      "notes": "Requested return on Order #SP-1006 (size swap on denim).",
+      "createdAt": "2026-10-20T09:10:34.792Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay_1792946886816",
+      "orderId": "ord_1792946886816",
+      "orderNumber": "SP-1018",
+      "customerName": "Test Automation Customer",
+      "amount": 2410,
+      "currency": "PKR",
+      "method": "Cash on Delivery (COD)",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-25T16:48:06.816Z"
+    },
+    {
+      "id": "pay_1792943702853",
+      "orderId": "ord_1792943702853",
+      "orderNumber": "SP-1017",
+      "customerName": "Test Automation Customer",
+      "amount": 2410,
+      "currency": "PKR",
+      "method": "Cash on Delivery (COD)",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-25T15:55:02.853Z"
+    },
+    {
+      "id": "pay_1792942990551",
+      "orderId": "ord_1792942990551",
+      "orderNumber": "SP-1016",
+      "customerName": "Test Automation Customer",
+      "amount": 2410,
+      "currency": "PKR",
+      "method": "Cash on Delivery (COD)",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-25T15:43:10.551Z"
+    },
+    {
+      "id": "pay_1792868286765",
+      "orderId": "ord_1792868286765",
+      "orderNumber": "SP-1015",
+      "customerName": "Test Automation Customer",
+      "amount": 2410,
+      "currency": "PKR",
+      "method": "Cash on Delivery (COD)",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-24T18:58:06.765Z"
+    },
+    {
+      "id": "pay_1792868234639",
+      "orderId": "ord_1792868234639",
+      "orderNumber": "SP-1014",
+      "customerName": "Test Automation Customer",
+      "amount": 2410,
+      "currency": "PKR",
+      "method": "Cash on Delivery (COD)",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-24T18:57:14.639Z"
+    },
+    {
+      "id": "pay_1792866878380",
+      "orderId": "ord_1792866878380",
+      "orderNumber": "SP-1013",
+      "customerName": "Test Automation Customer",
+      "amount": 2410,
+      "currency": "PKR",
+      "method": "Cash on Delivery (COD)",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-24T18:34:38.380Z"
+    },
+    {
+      "id": "pay_1792865684322",
+      "orderId": "ord_1792865684322",
+      "orderNumber": "SP-1012",
+      "customerName": "Test Automation Customer",
+      "amount": 2410,
+      "currency": "PKR",
+      "method": "Cash on Delivery (COD)",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-24T18:14:44.322Z"
+    },
+    {
+      "id": "pay_1792857476846",
+      "orderId": "ord_1792857476846",
+      "orderNumber": "SP-1011",
+      "customerName": "Test Automation Customer",
+      "amount": 2410,
+      "currency": "PKR",
+      "method": "Cash on Delivery (COD)",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-24T15:57:56.846Z"
+    },
+    {
+      "id": "pay_1792857415942",
+      "orderId": "ord_1792857415942",
+      "orderNumber": "SP-1010",
+      "customerName": "Test Automation Customer",
+      "amount": 2410,
+      "currency": "PKR",
+      "method": "Cash on Delivery (COD)",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-24T15:56:55.942Z"
+    },
+    {
+      "id": "pay_1792749674474",
+      "orderId": "ord_1792749674473",
+      "orderNumber": "SP-1009",
+      "customerName": "Test Automation Customer",
+      "amount": 2410,
+      "currency": "PKR",
+      "method": "Cash on Delivery (COD)",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-23T10:01:14.474Z"
+    },
+    {
+      "id": "pay_1792746730099",
+      "orderId": "ord_1792746730099",
+      "orderNumber": "SP-1008",
+      "customerName": "Test Automation Customer",
+      "amount": 2410,
+      "currency": "PKR",
+      "method": "Cash on Delivery (COD)",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-23T09:12:10.099Z"
+    },
+    {
+      "id": "pay_1792746642414",
+      "orderId": "ord_1792746642414",
+      "orderNumber": "SP-1007",
+      "customerName": "Test Automation Customer",
+      "amount": 2410,
+      "currency": "PKR",
+      "method": "Cash on Delivery (COD)",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-23T09:10:42.414Z"
+    },
+    {
+      "id": "pay_1",
+      "orderId": "ord_1001",
+      "orderNumber": "SP-1001",
+      "customerName": "Ayesha Siddiqui",
+      "amount": 7702,
+      "currency": "PKR",
+      "method": "Online Card / PayFast",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-20T09:10:34.792Z"
+    },
+    {
+      "id": "pay_2",
+      "orderId": "ord_1002",
+      "orderNumber": "SP-1002",
+      "customerName": "Bilal Farooq",
+      "amount": 21006,
+      "currency": "PKR",
+      "method": "Online Card / PayFast",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-22T09:10:34.792Z"
+    },
+    {
+      "id": "pay_3",
+      "orderId": "ord_1003",
+      "orderNumber": "SP-1003",
+      "customerName": "Usman Tariq",
+      "amount": 6514,
+      "currency": "PKR",
+      "method": "Cash On Delivery (COD)",
+      "type": "cod",
+      "status": "pending",
+      "codStatus": "uncollected",
+      "courierName": "Trax Express",
+      "date": "2026-10-23T09:10:34.792Z"
+    },
+    {
+      "id": "pay_4",
+      "orderId": "ord_1005",
+      "orderNumber": "SP-1005",
+      "customerName": "Tariq Mehmood",
+      "amount": 13932,
+      "currency": "PKR",
+      "method": "Daraz Wallet / Card",
+      "type": "prepaid",
+      "status": "settled",
+      "date": "2026-10-21T09:10:34.792Z"
+    },
+    {
+      "id": "pay_5",
+      "orderId": "ord_1006",
+      "orderNumber": "SP-1006",
+      "customerName": "Fatima Noor",
+      "amount": 6264,
+      "currency": "PKR",
+      "method": "Online Card / PayFast",
+      "type": "prepaid",
+      "status": "refunded",
+      "date": "2026-10-23T09:10:34.792Z"
+    },
+    {
+      "id": "pay_6",
+      "orderId": "ord_past_09",
+      "orderNumber": "SP-0994",
+      "customerName": "Ahmed Raza",
+      "amount": 14250,
+      "currency": "PKR",
+      "method": "Cash On Delivery (COD)",
+      "type": "cod",
+      "status": "settled",
+      "codStatus": "reconciled",
+      "courierName": "TCS COD Remittance",
+      "remittanceRef": "REMIT-TCS-PK-994821",
+      "date": "2026-10-21T09:10:34.792Z"
+    }
+  ],
+  "returns": [
+    {
+      "id": "ret_1",
+      "returnNumber": "RET-001",
+      "orderId": "ord_1006",
+      "orderNumber": "SP-1006",
+      "customerName": "Fatima Noor",
+      "customerEmail": "fatima.n@example.pk",
+      "itemsCount": 1,
+      "reason": "size_mismatch",
+      "status": "refunded",
+      "refundAmount": 6264,
+      "currency": "PKR",
+      "carrier": "Leopards Return",
+      "trackingNumber": "LEO-RET-994112",
+      "notes": "Customer reordered size 30/30. Return package inspected & restocked.",
+      "createdAt": "2026-10-22T09:10:34.792Z",
+      "updatedAt": "2026-10-23T09:10:34.792Z"
+    },
+    {
+      "id": "ret_2",
+      "returnNumber": "RET-002",
+      "orderId": "ord_1001",
+      "orderNumber": "SP-1001",
+      "customerName": "Ayesha Siddiqui",
+      "customerEmail": "ayesha.s@example.pk",
+      "itemsCount": 1,
+      "reason": "defective",
+      "status": "pending_review",
+      "refundAmount": 3450,
+      "currency": "PKR",
+      "notes": "Customer reports missing top cuff button on Oxford shirt.",
+      "createdAt": "2026-10-23T09:10:34.792Z",
+      "updatedAt": "2026-10-23T09:10:34.792Z"
+    }
+  ],
+  "shipments": [
+    {
+      "id": "shp_1",
+      "trackingNumber": "TCS-771928301",
+      "orderNumber": "SP-1001",
+      "customerName": "Ayesha Siddiqui",
+      "carrier": "TCS Express",
+      "status": "delivered",
+      "origin": "Korangi Industrial Hub, Karachi",
+      "destination": "DHA Phase 6, Karachi",
+      "dispatchDate": "2026-10-21T09:10:34.792Z",
+      "estimatedDelivery": "2026-10-22T09:10:34.792Z",
+      "currentLocation": "Delivered (Signed by Customer)",
+      "events": [
+        {
+          "status": "Shipping Label Created",
+          "location": "Karachi Hub, Sindh",
+          "timestamp": "2026-10-21T09:10:34.792Z",
+          "details": "Shipment manifest logged into TCS system"
+        },
+        {
+          "status": "Picked Up by Rider",
+          "location": "Karachi, Sindh",
+          "timestamp": "2026-10-21T09:10:34.792Z",
+          "details": "In TCS Express possession"
+        },
+        {
+          "status": "Arrived at Local Facility",
+          "location": "Clifton Station, Karachi",
+          "timestamp": "2026-10-22T09:10:34.792Z",
+          "details": "Dispatched for morning delivery"
+        },
+        {
+          "status": "Delivered",
+          "location": "DHA Phase 6, Karachi",
+          "timestamp": "2026-10-22T09:10:34.792Z",
+          "details": "Signed and handed over to recipient"
+        }
+      ]
+    },
+    {
+      "id": "shp_2",
+      "trackingNumber": "LEO-982019482",
+      "orderNumber": "SP-1002",
+      "customerName": "Bilal Farooq",
+      "carrier": "Leopards Courier",
+      "status": "in_transit",
+      "origin": "Korangi Logistics Zone, Karachi",
+      "destination": "Gulberg III, Lahore",
+      "dispatchDate": "2026-10-22T09:10:34.792Z",
+      "estimatedDelivery": "2026-10-24T09:10:34.792Z",
+      "currentLocation": "Thokar Niaz Baig Hub, Lahore",
+      "events": [
+        {
+          "status": "Shipment Booked",
+          "location": "Karachi, Sindh",
+          "timestamp": "2026-10-22T09:10:34.792Z",
+          "details": "Package processed at express hub"
+        },
+        {
+          "status": "Inter-City Transit",
+          "location": "En route to Lahore",
+          "timestamp": "2026-10-22T09:10:34.792Z",
+          "details": "Cargo flight dispatched to Allama Iqbal Airport"
+        },
+        {
+          "status": "Arrived at Regional Sort Facility",
+          "location": "Lahore, Punjab",
+          "timestamp": "2026-10-23T09:10:34.792Z",
+          "details": "Scheduled for morning van route"
+        }
+      ]
+    },
+    {
+      "id": "shp_3",
+      "trackingNumber": "TRX-55102948",
+      "orderNumber": "SP-1003",
+      "customerName": "Usman Tariq",
+      "carrier": "Trax Express",
+      "status": "label_created",
+      "origin": "I-9 Industrial Area, Islamabad",
+      "destination": "Sector F-10/3, Islamabad",
+      "dispatchDate": "2026-10-23T09:10:34.792Z",
+      "estimatedDelivery": "2026-10-25T09:10:34.792Z",
+      "currentLocation": "Awaiting Courier Pickup",
+      "events": [
+        {
+          "status": "COD Manifest Generated",
+          "location": "Islamabad Station",
+          "timestamp": "2026-10-23T09:10:34.792Z",
+          "details": "Rider assigned for package pickup"
+        }
+      ]
+    }
+  ],
+  "team": [
+    {
+      "id": "tm_1",
+      "name": "Hamza Malik",
+      "email": "hamza@storepilot.io",
+      "role": "owner",
+      "status": "active",
+      "joinedAt": "2026-10-20T09:10:34.792Z"
+    },
+    {
+      "id": "tm_2",
+      "name": "Hanzala Designer",
+      "email": "hanzala@storepilot.io",
+      "role": "admin",
+      "status": "active",
+      "joinedAt": "2026-10-20T09:10:34.792Z"
+    },
+    {
+      "id": "tm_3",
+      "name": "Omer Farooq",
+      "email": "omer.ops@storepilot.io",
+      "role": "manager",
+      "status": "active",
+      "joinedAt": "2026-10-21T09:10:34.792Z"
+    },
+    {
+      "id": "tm_4",
+      "name": "Amina Sheikh",
+      "email": "amina.support@storepilot.io",
+      "role": "viewer",
+      "status": "active",
+      "joinedAt": "2026-10-22T09:10:34.792Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "act_1792946886850",
+      "userName": "Verification Auditor",
+      "action": "Contact Submission",
+      "entityType": "system",
+      "entityId": "msg_1792946886850",
+      "details": "Inquiry from auditor@test.com regarding \"Security & Compliance Review\"",
+      "timestamp": "2026-10-25T16:48:06.850Z"
+    },
+    {
+      "id": "act_1792946886844",
+      "userName": "Admin",
+      "action": "Configured Demo Store",
+      "entityType": "store",
+      "entityId": "shopify",
+      "details": "Connected demo storefront storepilot-demo.myshopify.com with sample PKR catalog.",
+      "timestamp": "2026-10-25T16:48:06.844Z"
+    },
+    {
+      "id": "act_1792946886826",
+      "userName": "Inventory Lead",
+      "action": "Adjusted Stock/Price",
+      "entityType": "inventory",
+      "entityId": "prod_1",
+      "details": "Updated Minimalist Oxford Cotton Kurta & Shirt: stock is now 105",
+      "timestamp": "2026-10-25T16:48:06.826Z"
+    },
+    {
+      "id": "act_1792946886816",
+      "userName": "Store Operator",
+      "action": "Created Order",
+      "entityType": "order",
+      "entityId": "ord_1792946886816",
+      "details": "Created order SP-1018 ($2410)",
+      "timestamp": "2026-10-25T16:48:06.816Z"
+    },
+    {
+      "id": "act_1792943702901",
+      "userName": "Verification Auditor",
+      "action": "Contact Submission",
+      "entityType": "system",
+      "entityId": "msg_1792943702900",
+      "details": "Inquiry from auditor@test.com regarding \"Security & Compliance Review\"",
+      "timestamp": "2026-10-25T15:55:02.901Z"
+    },
+    {
+      "id": "act_1792943702893",
+      "userName": "Admin",
+      "action": "Configured Demo Store",
+      "entityType": "store",
+      "entityId": "shopify",
+      "details": "Connected demo storefront storepilot-demo.myshopify.com with sample PKR catalog.",
+      "timestamp": "2026-10-25T15:55:02.893Z"
+    },
+    {
+      "id": "act_1792943702871",
+      "userName": "Inventory Lead",
+      "action": "Adjusted Stock/Price",
+      "entityType": "inventory",
+      "entityId": "prod_1",
+      "details": "Updated Minimalist Oxford Cotton Kurta & Shirt: stock is now 100",
+      "timestamp": "2026-10-25T15:55:02.871Z"
+    },
+    {
+      "id": "act_1792943702853",
+      "userName": "Store Operator",
+      "action": "Created Order",
+      "entityType": "order",
+      "entityId": "ord_1792943702853",
+      "details": "Created order SP-1017 ($2410)",
+      "timestamp": "2026-10-25T15:55:02.853Z"
+    },
+    {
+      "id": "act_1792942990582",
+      "userName": "Verification Auditor",
+      "action": "Contact Submission",
+      "entityType": "system",
+      "entityId": "msg_1792942990582",
+      "details": "Inquiry from auditor@test.com regarding \"Security & Compliance Review\"",
+      "timestamp": "2026-10-25T15:43:10.582Z"
+    },
+    {
+      "id": "act_1792942990577",
+      "userName": "Admin",
+      "action": "Configured Demo Store",
+      "entityType": "store",
+      "entityId": "shopify",
+      "details": "Connected demo storefront storepilot-demo.myshopify.com with sample PKR catalog.",
+      "timestamp": "2026-10-25T15:43:10.577Z"
+    },
+    {
+      "id": "act_1792942990563",
+      "userName": "Inventory Lead",
+      "action": "Adjusted Stock/Price",
+      "entityType": "inventory",
+      "entityId": "prod_1",
+      "details": "Updated Minimalist Oxford Cotton Kurta & Shirt: stock is now 95",
+      "timestamp": "2026-10-25T15:43:10.563Z"
+    },
+    {
+      "id": "act_1792942990551",
+      "userName": "Store Operator",
+      "action": "Created Order",
+      "entityType": "order",
+      "entityId": "ord_1792942990551",
+      "details": "Created order SP-1016 ($2410)",
+      "timestamp": "2026-10-25T15:43:10.551Z"
+    },
+    {
+      "id": "act_1792868286790",
+      "userName": "Verification Auditor",
+      "action": "Contact Submission",
+      "entityType": "system",
+      "entityId": "msg_1792868286790",
+      "details": "Inquiry from auditor@test.com regarding \"Security & Compliance Review\"",
+      "timestamp": "2026-10-24T18:58:06.790Z"
+    },
+    {
+      "id": "act_1792868286786",
+      "userName": "Admin",
+      "action": "Configured Demo Store",
+      "entityType": "store",
+      "entityId": "shopify",
+      "details": "Connected demo storefront storepilot-demo.myshopify.com with sample PKR catalog.",
+      "timestamp": "2026-10-24T18:58:06.786Z"
+    },
+    {
+      "id": "act_1792868286774",
+      "userName": "Inventory Lead",
+      "action": "Adjusted Stock/Price",
+      "entityType": "inventory",
+      "entityId": "prod_1",
+      "details": "Updated Minimalist Oxford Cotton Kurta & Shirt: stock is now 90",
+      "timestamp": "2026-10-24T18:58:06.774Z"
+    },
+    {
+      "id": "act_1792868286765",
+      "userName": "Store Operator",
+      "action": "Created Order",
+      "entityType": "order",
+      "entityId": "ord_1792868286765",
+      "details": "Created order SP-1015 ($2410)",
+      "timestamp": "2026-10-24T18:58:06.765Z"
+    },
+    {
+      "id": "act_1792868234668",
+      "userName": "Verification Auditor",
+      "action": "Contact Submission",
+      "entityType": "system",
+      "entityId": "msg_1792868234668",
+      "details": "Inquiry from auditor@test.com regarding \"Security & Compliance Review\"",
+      "timestamp": "2026-10-24T18:57:14.668Z"
+    },
+    {
+      "id": "act_1792868234662",
+      "userName": "Admin",
+      "action": "Configured Demo Store",
+      "entityType": "store",
+      "entityId": "shopify",
+      "details": "Connected demo storefront storepilot-demo.myshopify.com with sample PKR catalog.",
+      "timestamp": "2026-10-24T18:57:14.662Z"
+    },
+    {
+      "id": "act_1792868234648",
+      "userName": "Inventory Lead",
+      "action": "Adjusted Stock/Price",
+      "entityType": "inventory",
+      "entityId": "prod_1",
+      "details": "Updated Minimalist Oxford Cotton Kurta & Shirt: stock is now 85",
+      "timestamp": "2026-10-24T18:57:14.648Z"
+    },
+    {
+      "id": "act_1792868234639",
+      "userName": "Store Operator",
+      "action": "Created Order",
+      "entityType": "order",
+      "entityId": "ord_1792868234639",
+      "details": "Created order SP-1014 ($2410)",
+      "timestamp": "2026-10-24T18:57:14.639Z"
+    },
+    {
+      "id": "act_1792866878422",
+      "userName": "Verification Auditor",
+      "action": "Contact Submission",
+      "entityType": "system",
+      "entityId": "msg_1792866878421",
+      "details": "Inquiry from auditor@test.com regarding \"Security & Compliance Review\"",
+      "timestamp": "2026-10-24T18:34:38.422Z"
+    },
+    {
+      "id": "act_1792866878415",
+      "userName": "Admin",
+      "action": "Configured Demo Store",
+      "entityType": "store",
+      "entityId": "shopify",
+      "details": "Connected demo storefront storepilot-demo.myshopify.com with sample PKR catalog.",
+      "timestamp": "2026-10-24T18:34:38.414Z"
+    },
+    {
+      "id": "act_1792866878392",
+      "userName": "Inventory Lead",
+      "action": "Adjusted Stock/Price",
+      "entityType": "inventory",
+      "entityId": "prod_1",
+      "details": "Updated Minimalist Oxford Cotton Kurta & Shirt: stock is now 80",
+      "timestamp": "2026-10-24T18:34:38.392Z"
+    },
+    {
+      "id": "act_1792866878380",
+      "userName": "Store Operator",
+      "action": "Created Order",
+      "entityType": "order",
+      "entityId": "ord_1792866878380",
+      "details": "Created order SP-1013 ($2410)",
+      "timestamp": "2026-10-24T18:34:38.380Z"
+    },
+    {
+      "id": "act_1792865684369",
+      "userName": "Verification Auditor",
+      "action": "Contact Submission",
+      "entityType": "system",
+      "entityId": "msg_1792865684369",
+      "details": "Inquiry from auditor@test.com regarding \"Security & Compliance Review\"",
+      "timestamp": "2026-10-24T18:14:44.369Z"
+    },
+    {
+      "id": "act_1792865684361",
+      "userName": "Admin",
+      "action": "Configured Demo Store",
+      "entityType": "store",
+      "entityId": "shopify",
+      "details": "Connected demo storefront storepilot-demo.myshopify.com with sample PKR catalog.",
+      "timestamp": "2026-10-24T18:14:44.360Z"
+    },
+    {
+      "id": "act_1792865684337",
+      "userName": "Inventory Lead",
+      "action": "Adjusted Stock/Price",
+      "entityType": "inventory",
+      "entityId": "prod_1",
+      "details": "Updated Minimalist Oxford Cotton Kurta & Shirt: stock is now 75",
+      "timestamp": "2026-10-24T18:14:44.337Z"
+    },
+    {
+      "id": "act_1792865684322",
+      "userName": "Store Operator",
+      "action": "Created Order",
+      "entityType": "order",
+      "entityId": "ord_1792865684322",
+      "details": "Created order SP-1012 ($2410)",
+      "timestamp": "2026-10-24T18:14:44.322Z"
+    },
+    {
+      "id": "act_1792857476887",
+      "userName": "Verification Auditor",
+      "action": "Contact Submission",
+      "entityType": "system",
+      "entityId": "msg_1792857476887",
+      "details": "Inquiry from auditor@test.com regarding \"Security & Compliance Review\"",
+      "timestamp": "2026-10-24T15:57:56.887Z"
+    },
+    {
+      "id": "act_1792857476882",
+      "userName": "Admin",
+      "action": "Configured Demo Store",
+      "entityType": "store",
+      "entityId": "shopify",
+      "details": "Connected demo storefront storepilot-demo.myshopify.com with sample PKR catalog.",
+      "timestamp": "2026-10-24T15:57:56.882Z"
+    },
+    {
+      "id": "act_1792857476861",
+      "userName": "Inventory Lead",
+      "action": "Adjusted Stock/Price",
+      "entityType": "inventory",
+      "entityId": "prod_1",
+      "details": "Updated Minimalist Oxford Cotton Kurta & Shirt: stock is now 70",
+      "timestamp": "2026-10-24T15:57:56.861Z"
+    },
+    {
+      "id": "act_1792857476846",
+      "userName": "Store Operator",
+      "action": "Created Order",
+      "entityType": "order",
+      "entityId": "ord_1792857476846",
+      "details": "Created order SP-1011 ($2410)",
+      "timestamp": "2026-10-24T15:57:56.846Z"
+    },
+    {
+      "id": "act_1792857415952",
+      "userName": "Inventory Lead",
+      "action": "Adjusted Stock/Price",
+      "entityType": "inventory",
+      "entityId": "prod_1",
+      "details": "Updated Minimalist Oxford Cotton Kurta & Shirt: stock is now 65",
+      "timestamp": "2026-10-24T15:56:55.952Z"
+    },
+    {
+      "id": "act_1792857415942",
+      "userName": "Store Operator",
+      "action": "Created Order",
+      "entityType": "order",
+      "entityId": "ord_1792857415942",
+      "details": "Created order SP-1010 ($2410)",
+      "timestamp": "2026-10-24T15:56:55.942Z"
+    },
+    {
+      "id": "act_1792749674502",
+      "userName": "Verification Auditor",
+      "action": "Contact Submission",
+      "entityType": "system",
+      "entityId": "msg_1792749674502",
+      "details": "Inquiry from auditor@test.com regarding \"Security & Compliance Review\"",
+      "timestamp": "2026-10-23T10:01:14.502Z"
+    },
+    {
+      "id": "act_1792749674491",
+      "userName": "Inventory Lead",
+      "action": "Adjusted Stock/Price",
+      "entityType": "inventory",
+      "entityId": "prod_1",
+      "details": "Updated Minimalist Oxford Cotton Kurta & Shirt: stock is now 60",
+      "timestamp": "2026-10-23T10:01:14.491Z"
+    },
+    {
+      "id": "act_1792749674474",
+      "userName": "Store Operator",
+      "action": "Created Order",
+      "entityType": "order",
+      "entityId": "ord_1792749674473",
+      "details": "Created order SP-1009 ($2410)",
+      "timestamp": "2026-10-23T10:01:14.474Z"
+    },
+    {
+      "id": "act_1792746730145",
+      "userName": "Verification Auditor",
+      "action": "Contact Submission",
+      "entityType": "system",
+      "entityId": "msg_1792746730145",
+      "details": "Inquiry from auditor@test.com regarding \"Security & Compliance Review\"",
+      "timestamp": "2026-10-23T09:12:10.145Z"
+    },
+    {
+      "id": "act_1792746730123",
+      "userName": "Inventory Lead",
+      "action": "Adjusted Stock/Price",
+      "entityType": "inventory",
+      "entityId": "prod_1",
+      "details": "Updated Minimalist Oxford Cotton Kurta & Shirt: stock is now 55",
+      "timestamp": "2026-10-23T09:12:10.123Z"
+    },
+    {
+      "id": "act_1792746730099",
+      "userName": "Store Operator",
+      "action": "Created Order",
+      "entityType": "order",
+      "entityId": "ord_1792746730099",
+      "details": "Created order SP-1008 ($2410)",
+      "timestamp": "2026-10-23T09:12:10.099Z"
+    },
+    {
+      "id": "act_1792746642436",
+      "userName": "Verification Auditor",
+      "action": "Contact Submission",
+      "entityType": "system",
+      "entityId": "msg_1792746642436",
+      "details": "Inquiry from auditor@test.com regarding \"Security & Compliance Review\"",
+      "timestamp": "2026-10-23T09:10:42.436Z"
+    },
+    {
+      "id": "act_1792746642426",
+      "userName": "Inventory Lead",
+      "action": "Adjusted Stock/Price",
+      "entityType": "inventory",
+      "entityId": "prod_1",
+      "details": "Updated Minimalist Oxford Cotton Kurta & Shirt: stock is now 50",
+      "timestamp": "2026-10-23T09:10:42.426Z"
+    },
+    {
+      "id": "act_1792746642414",
+      "userName": "Store Operator",
+      "action": "Created Order",
+      "entityType": "order",
+      "entityId": "ord_1792746642414",
+      "details": "Created order SP-1007 ($2410)",
+      "timestamp": "2026-10-23T09:10:42.414Z"
+    },
+    {
+      "id": "act_1",
+      "userName": "Hamza Malik",
+      "action": "Updated Order Status",
+      "entityType": "order",
+      "entityId": "ord_1001",
+      "details": "Marked order SP-1001 as fulfilled with tracking TCS-771928301",
+      "timestamp": "2026-10-22T09:10:34.792Z"
+    },
+    {
+      "id": "act_2",
+      "userName": "Hamza Malik",
+      "action": "Processed Refund",
+      "entityType": "return",
+      "entityId": "ret_1",
+      "details": "Approved return RET-001 (Rs. 6,264.00) and restocked inventory",
+      "timestamp": "2026-10-23T09:10:34.792Z"
+    },
+    {
+      "id": "act_3",
+      "userName": "System Worker",
+      "action": "Catalog Sync",
+      "entityType": "store",
+      "entityId": "store_1",
+      "details": "Sync completed: 8 products and 28 orders indexed in PKR",
+      "timestamp": "2026-10-23T09:10:34.792Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1792946886844",
+      "title": "Shopify Demo Connected",
+      "message": "Store storepilot-demo.myshopify.com is active. Bi-directional inventory & order sync running.",
+      "type": "system",
+      "read": false,
+      "createdAt": "2026-10-25T16:48:06.844Z"
+    },
+    {
+      "id": "notif_1792943702893",
+      "title": "Shopify Demo Connected",
+      "message": "Store storepilot-demo.myshopify.com is active. Bi-directional inventory & order sync running.",
+      "type": "system",
+      "read": false,
+      "createdAt": "2026-10-25T15:55:02.893Z"
+    },
+    {
+      "id": "notif_1792942990577",
+      "title": "Shopify Demo Connected",
+      "message": "Store storepilot-demo.myshopify.com is active. Bi-directional inventory & order sync running.",
+      "type": "system",
+      "read": false,
+      "createdAt": "2026-10-25T15:43:10.577Z"
+    },
+    {
+      "id": "notif_1792868286786",
+      "title": "Shopify Demo Connected",
+      "message": "Store storepilot-demo.myshopify.com is active. Bi-directional inventory & order sync running.",
+      "type": "system",
+      "read": false,
+      "createdAt": "2026-10-24T18:58:06.786Z"
+    },
+    {
+      "id": "notif_1792868234662",
+      "title": "Shopify Demo Connected",
+      "message": "Store storepilot-demo.myshopify.com is active. Bi-directional inventory & order sync running.",
+      "type": "system",
+      "read": false,
+      "createdAt": "2026-10-24T18:57:14.662Z"
+    },
+    {
+      "id": "notif_1792866878415",
+      "title": "Shopify Demo Connected",
+      "message": "Store storepilot-demo.myshopify.com is active. Bi-directional inventory & order sync running.",
+      "type": "system",
+      "read": false,
+      "createdAt": "2026-10-24T18:34:38.414Z"
+    },
+    {
+      "id": "notif_1792865684361",
+      "title": "Shopify Demo Connected",
+      "message": "Store storepilot-demo.myshopify.com is active. Bi-directional inventory & order sync running.",
+      "type": "system",
+      "read": false,
+      "createdAt": "2026-10-24T18:14:44.360Z"
+    },
+    {
+      "id": "notif_1792857476882",
+      "title": "Shopify Demo Connected",
+      "message": "Store storepilot-demo.myshopify.com is active. Bi-directional inventory & order sync running.",
+      "type": "system",
+      "read": false,
+      "createdAt": "2026-10-24T15:57:56.882Z"
+    },
+    {
+      "id": "notif_1",
+      "title": "Low Stock Alert",
+      "message": "Fine Merino Wool Crewneck Pullover has only 3 units remaining.",
+      "type": "inventory",
+      "read": false,
+      "createdAt": "2026-10-23T09:10:34.792Z"
+    },
+    {
+      "id": "notif_2",
+      "title": "New Return Request",
+      "message": "Return RET-002 requested by Ayesha Siddiqui for Order #SP-1001.",
+      "type": "return",
+      "read": false,
+      "createdAt": "2026-10-23T09:10:34.792Z"
+    },
+    {
+      "id": "notif_3",
+      "title": "COD Remittance Available",
+      "message": "TCS COD Remittance slip #REMIT-TCS-PK-994821 ready for reconciliation.",
+      "type": "order",
+      "read": true,
+      "createdAt": "2026-10-22T09:10:34.792Z"
+    }
+  ],
+  "shopifyConfig": {
+    "connected": true,
+    "storeDomain": "storepilot-demo.myshopify.com",
+    "apiVersion": "2025-01",
+    "lastSyncedAt": "2026-10-25T16:48:06.844Z",
+    "totalSyncedOrders": 18,
+    "totalSyncedProducts": 8,
+    "webhookCount": 6,
+    "autoSync": true,
+    "status": "connected",
+    "shopName": "STOREPILOT-DEMO",
+    "shopEmail": "admin@storepilot-demo.myshopify.com",
+    "currency": "PKR",
+    "ianaTimezone": "Asia/Karachi",
+    "isLiveConnection": false,
+    "scopes": [
+      "read_products",
+      "write_products",
+      "read_orders",
+      "write_orders",
+      "read_inventory",
+      "read_customers",
+      "read_fulfillments"
+    ]
+  },
+  "contactMessages": [
+    {
+      "id": "msg_1792946886850",
+      "name": "Verification Auditor",
+      "email": "auditor@test.com",
+      "subject": "Security & Compliance Review",
+      "message": "Verified server-side validation and storage.",
+      "inquiryType": "Sales & Onboarding",
+      "createdAt": "2026-10-25T16:48:06.850Z"
+    },
+    {
+      "id": "msg_1792943702900",
+      "name": "Verification Auditor",
+      "email": "auditor@test.com",
+      "subject": "Security & Compliance Review",
+      "message": "Verified server-side validation and storage.",
+      "inquiryType": "Sales & Onboarding",
+      "createdAt": "2026-10-25T15:55:02.901Z"
+    },
+    {
+      "id": "msg_1792942990582",
+      "name": "Verification Auditor",
+      "email": "auditor@test.com",
+      "subject": "Security & Compliance Review",
+      "message": "Verified server-side validation and storage.",
+      "inquiryType": "Sales & Onboarding",
+      "createdAt": "2026-10-25T15:43:10.582Z"
+    },
+    {
+      "id": "msg_1792868286790",
+      "name": "Verification Auditor",
+      "email": "auditor@test.com",
+      "subject": "Security & Compliance Review",
+      "message": "Verified server-side validation and storage.",
+      "inquiryType": "Sales & Onboarding",
+      "createdAt": "2026-10-24T18:58:06.790Z"
+    },
+    {
+      "id": "msg_1792868234668",
+      "name": "Verification Auditor",
+      "email": "auditor@test.com",
+      "subject": "Security & Compliance Review",
+      "message": "Verified server-side validation and storage.",
+      "inquiryType": "Sales & Onboarding",
+      "createdAt": "2026-10-24T18:57:14.668Z"
+    },
+    {
+      "id": "msg_1792866878421",
+      "name": "Verification Auditor",
+      "email": "auditor@test.com",
+      "subject": "Security & Compliance Review",
+      "message": "Verified server-side validation and storage.",
+      "inquiryType": "Sales & Onboarding",
+      "createdAt": "2026-10-24T18:34:38.421Z"
+    },
+    {
+      "id": "msg_1792865684369",
+      "name": "Verification Auditor",
+      "email": "auditor@test.com",
+      "subject": "Security & Compliance Review",
+      "message": "Verified server-side validation and storage.",
+      "inquiryType": "Sales & Onboarding",
+      "createdAt": "2026-10-24T18:14:44.369Z"
+    },
+    {
+      "id": "msg_1792857476887",
+      "name": "Verification Auditor",
+      "email": "auditor@test.com",
+      "subject": "Security & Compliance Review",
+      "message": "Verified server-side validation and storage.",
+      "inquiryType": "Sales & Onboarding",
+      "createdAt": "2026-10-24T15:57:56.887Z"
+    },
+    {
+      "id": "msg_1792749674502",
+      "name": "Verification Auditor",
+      "email": "auditor@test.com",
+      "subject": "Security & Compliance Review",
+      "message": "Verified server-side validation and storage.",
+      "inquiryType": "Sales & Onboarding",
+      "createdAt": "2026-10-23T10:01:14.502Z"
+    },
+    {
+      "id": "msg_1792746730145",
+      "name": "Verification Auditor",
+      "email": "auditor@test.com",
+      "subject": "Security & Compliance Review",
+      "message": "Verified server-side validation and storage.",
+      "inquiryType": "Sales & Onboarding",
+      "createdAt": "2026-10-23T09:12:10.145Z"
+    },
+    {
+      "id": "msg_1792746642436",
+      "name": "Verification Auditor",
+      "email": "auditor@test.com",
+      "subject": "Security & Compliance Review",
+      "message": "Verified server-side validation and storage.",
+      "inquiryType": "Sales & Onboarding",
+      "createdAt": "2026-10-23T09:10:42.436Z"
+    }
+  ]
+}

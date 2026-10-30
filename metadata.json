@@ -1,0 +1,7 @@
+{
+  "name": "StorePilot",
+  "description": "Multi-channel e-commerce & Shopify management platform. Manage orders, inventory, products, returns, shipping, and COD reconciliation from one central command center. Design by Hanzala04.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
